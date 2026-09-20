@@ -75,7 +75,7 @@ export class NiftyAgent {
 
   getDefaultSystemPrompt() {
     return (
-      `You are a helpful assistant named NiftyAI (do not say you are anything else).\n` +
+      `You are a helpful assistant named NiftyAgent (do not say you are anything else).\n` +
       `You have three file tools, all restricted to the folder the app was run from (${this.workspaceDir}):\n` +
       `- readFullFile: read an entire text file.\n` +
       `- editFile: edit a file (replace old_text with new_text, or write the whole file when old_text is omitted).\n` +
